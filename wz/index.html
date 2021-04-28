@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta TRN-Api-Key=298c6aee-f618-42c9-be6b-8bee55da5653>
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Oswald&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.1.1/chart.min.js"
+          integrity="sha512-BqNYFBAzGfZDnIWSAEGZSD/QFKeVxms2dIBPfw11gZubWwKUjEgmFUtUls8vZ6xTRZN/jaXGHD/ZaxD9+fDo0A=="
+          crossorigin="anonymous"></script>
+    </head>
+
+
+    <!--HEADER -->
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand ml-4 mt-2" href="#">
+                  <div class="row">
+                    <h5>B</h5>
+                    <h5 class="text-warning">MM</h5>
+                    <h5>B</h5>
+                  </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+                  aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">INICIO
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="html/clases.html">CLASES TOP</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" autocomplete="off" type="text" id="search" placeholder="Search">
+                    <button class="btn btn-warning my-2 my-sm-0" id="submitSearch">Search</button>
+                  </form>        
+                </nav>
+
+                
+                <div class="col-md-2 col-sm-12 ml-auto mr-sm-3 position-absolute tabla-busqueda" id="" style="z-index: 2; right: 0; ">
+                  <div class="card my-4 bg-light" id="resultado-tarea" ">
+                    <div class="card-body bg-light" >
+                      <table class="table table-borderless table-sm " style="border-radius: 100px;" >
+                        <tbody id="container">
+                          
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                
+        </div>
+
+          <div class="container-fluid cabecera p-0">
+            <div class="container h-100 d-flex flex-column justify-content-center">
+                <div class="row">
+                  <div class="col-md-6 col-sm-12">
+                      <h2 class=" text-center" style="font-family: 'Oswald', sans-serif;">LAS MEJORES CLASES PARA WARZONE EN UN SOLO CLICK</h2>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mt-4 col-sm-12 d-flex">
+                      <a href="/html/clases.html" class="mx-auto "><button class="btn btn-lg btn-warning">SOY EL CLICK</button></a>
+                  </div>
+                </div>
+            </div>
+          </div>
+              <!--HASTA AQUI EL HEADER --> 
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="text-center" style="font-family: 'Oswald', sans-serif;">RESUMEN</h3>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container" id="resumen">
+           <div class="preloader mx-auto my-5" id="loader"></div>
+        </div>
+          
+
+              
+                      
+        
+          
+          
+          <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="js/Datos.js"></script>
+<script src="js/Draw.js"></script>
+<script src="js/Util.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
